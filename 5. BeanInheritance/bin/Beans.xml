@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+
+    <!--  Inheritance without abstract -->
+    
+    <!-- <bean id="customer" class="com.vishal.spring.inheritance.Customer">
+        <property name="country" value="India"></property>
+    </bean>
+     
+    <bean id="countryBean" parent="customer" >
+        <property name="type" value="0"></property>
+        <property name="action" value="Buy and Sell"></property>
+    </bean> -->
+    
+    <!--  inheritance using abstract - pure abstract -->
+    
+    <bean id="customer" class="com.vishal.spring.inheritance.Customer" abstract="true">
+        <property name="country" value="India"></property>
+    </bean>
+     
+    <bean id="countryBean" parent="customer" >
+        <property name="country" value="USA"></property>
+        <property name="type" value="0"></property>
+        <property name="action" value="Buy and Sell"></property>
+    </bean>
+    
+</beans>
