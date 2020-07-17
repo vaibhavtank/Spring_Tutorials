@@ -1,4 +1,4 @@
-package com.vishal.spring.ioc;
+package com.vaibhav.spring.ioc;
 
 //import org.springframework.beans.factory.xml.XmlBeanFactory;
 import org.springframework.beans.factory.xml.XmlBeanFactory;
