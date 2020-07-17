@@ -1,4 +1,4 @@
-package com.vishal.spring.ioc;
+package com.vaibhav.spring.ioc;
 
 public class HelloWorld {
 
