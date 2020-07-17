@@ -1,4 +1,4 @@
- package com.vishal.spring.ioc;
+ package com.vaibhav.spring.ioc;
 
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
